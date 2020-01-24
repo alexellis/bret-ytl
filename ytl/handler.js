@@ -1,12 +1,11 @@
 "use strict"
 
 module.exports = async (event, context) => {
-    let err;
     const result =             {
-        status: "Input: " + JSON.stringify(event.body)
+        status: "Use Linux, not MacOS"
     };
 
     return context
-        .status(200)
+        .status(418) // I'm a teapot
         .succeed(result);
 }
