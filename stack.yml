@@ -7,4 +7,3 @@ functions:
     lang: node12
     handler: ./ytl
     image: ytl:latest
-
