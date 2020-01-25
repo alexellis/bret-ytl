@@ -8,5 +8,6 @@ module.exports = async (event, context) => {
     const teapot = 418;
     return context
         .status(teapot)
+        .headers({"Content-type": "application/json"})
         .succeed(result);
 }
