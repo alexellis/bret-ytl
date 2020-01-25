@@ -5,7 +5,8 @@ module.exports = async (event, context) => {
         status: "Drink tea, not coffee. Check my HTTP code!"
     };
 
+    const teapot = 418;
     return context
-        .status(418) // I'm a teapot
+        .status(teapot)
         .succeed(result);
 }
