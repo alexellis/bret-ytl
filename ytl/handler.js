@@ -2,7 +2,7 @@
 
 module.exports = async (event, context) => {
     const result =             {
-        status: "Drink tea, not coffee"
+        status: "Drink tea, not coffee. Check my HTTP code!"
     };
 
     return context
