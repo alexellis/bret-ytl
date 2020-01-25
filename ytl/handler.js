@@ -2,7 +2,7 @@
 
 module.exports = async (event, context) => {
     const result =             {
-        status: "Use Linux, not MacOS"
+        status: "Drink tea, not coffee"
     };
 
     return context
