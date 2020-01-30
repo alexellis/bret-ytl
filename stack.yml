@@ -12,3 +12,4 @@ functions:
     handler: ./v60
     image: v60:latest
 
+
