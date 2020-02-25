@@ -7,9 +7,7 @@ functions:
     lang: node12
     handler: ./ytl
     image: ytl:latest
-  v60:
-    lang: java11-vert-x
-    handler: ./v60
-    image: v60:latest
-
-
+#  v60:
+#    lang: java11-vert-x
+#    handler: ./v60
+#    image: v60:latest
