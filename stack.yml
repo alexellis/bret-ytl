@@ -11,4 +11,3 @@ functions:
 #    lang: java11-vert-x
 #    handler: ./v60
 #    image: v60:latest
-
