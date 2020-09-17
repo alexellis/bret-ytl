@@ -11,3 +11,8 @@ functions:
 #    lang: java11-vert-x
 #    handler: ./v60
 #    image: v60:latest
+  env:
+    lang: python3
+    handler: ./env
+    image: env:latest
+
