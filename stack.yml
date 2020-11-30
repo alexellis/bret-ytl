@@ -15,4 +15,3 @@ functions:
     lang: python3
     handler: ./env
     image: env:latest
-
