@@ -19,4 +19,3 @@ functions:
     lang: golang-middleware
     handler: ./stomper
     image: stomper:latest
-
