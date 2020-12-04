@@ -19,3 +19,10 @@ functions:
     lang: golang-middleware
     handler: ./stomper
     image: stomper:latest
+  print-secret:
+    lang: go
+    handler: ./print-secret
+    image: alexellis2/print-secret:latest
+    secrets:
+    - token
+
